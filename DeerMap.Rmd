@@ -1,0 +1,115 @@
+---
+title: "Deer map"
+author: "Jenna Dagher"
+date: "2024-02-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(readxl)
+library(maps)
+library(mapdata)
+
+# Read Excel data
+excel_data <- read.csv("/Users/jennadagher/Desktop/Deer Important Things/location.csv", header= TRUE)
+
+# Check column names
+print(colnames(excel_data))
+
+# Create an sf (simple features) object
+sf_data <- st_as_sf(excel_data, coords = c("longitude", "latitude"), crs = 4326)
+
+
+usa <- map_data("usa")
+canada <- map_data("worldHires", "Canada")
+mexico <- map_data("worldHires", "Mexico")
+belize <- map_data("worldHires", "Belize")
+guatemala <- map_data("worldHires", "Guatemala")
+elsalvador <- map_data("worldHires", "El Salvador")
+honduras <- map_data("worldHires", "Honduras")
+nicaragua <- map_data("worldHires", "Nicaragua")
+costarica <- map_data("worldHires", "Costa Rica")
+panama <- map_data("worldHires", "Panama")
+colombia <- map_data("worldHires", "Colombia")
+venezuela <- map_data("worldHires", "Venezuela")
+guyana <- map_data("worldHires", "Guyana")
+suriname <- map_data("worldHires", "Suriname")
+brazil <- map_data("worldHires", "Brazil")
+argentina <- map_data("worldHires", "Argentina")
+chile <- map_data("worldHires", "Chile")
+uruguay <- map_data("worldHires", "Uruguay")
+paraguay <- map_data("worldHires", "Paraguay")
+bolivia <- map_data("worldHires", "Bolivia")
+peru <- map_data("worldHires", "Peru")
+ecuador <- map_data("worldHires", "Ecuador")
+
+NAmap <- ggplot() + geom_polygon(data = usa, 
+                                 aes(x=long, y = lat, group = group), 
+                                 fill = "white", 
+                                 color="black") +
+    geom_polygon(data = canada, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = mexico, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+    geom_polygon(data = belize, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = guatemala, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+    geom_polygon(data = elsalvador, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = honduras, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+    geom_polygon(data = nicaragua, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = costarica, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+    geom_polygon(data = panama, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = colombia, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+    geom_polygon(data = guyana, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = venezuela, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+    geom_polygon(data = ecuador, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+  geom_polygon(data = suriname, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+  geom_polygon(data = brazil, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = argentina, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+  geom_polygon(data = chile, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = uruguay, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+  geom_polygon(data = paraguay, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+    geom_polygon(data = bolivia, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") +
+geom_polygon(data = peru, aes(x=long, y = lat, group = group), 
+                 fill = "white", color="black") + 
+  geom_sf(data = sf_data, aes(color = Zones), size = 1) +
+  ggtitle(expression(paste("Distribution of ", italic("Odocoileus"), " Specimen"))) +
+  labs(color = "Zones") + scale_color_manual(values=c("#104E8B", "#20B2AA", "#32CD32", "#D2B48C", "#FFA500", "#FF6347", "#FF4500" )) +
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        panel.background = element_blank()) +
+  coord_sf(xlim = c(-130, -65), ylim = c(-20, 50))
+
+NAmap
+
+```
+

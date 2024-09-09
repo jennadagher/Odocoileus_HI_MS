@@ -1,0 +1,354 @@
+---
+title: "Deer Data Analysis"
+author: "Jenna Dagher"
+date: "2024-04-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+"MESOWEAR X ZONES"
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(readxl)
+library(stats)
+library(dunn.test)
+
+Deer <- read_excel("/Users/jennadagher/Desktop/Deer Important Things/Deer.xlsx")
+
+
+#Kruskal-Wallis Test
+
+result3 = kruskal.test(AverageMSm3 ~ Zones, data = Deer)
+print(result3)
+
+result2 = kruskal.test(AverageMSm2 ~ Zones, data = Deer)
+print(result2)
+
+result1 = kruskal.test(AverageMSm1 ~ Zones,data = Deer)
+print(result1)
+
+# Data
+set.seed(8)
+y <- rnorm(200)
+group <- sample(LETTERS[1:3], size = 200,
+                replace = TRUE)
+df <- data.frame(y, group)
+
+# m1 vs zones
+m1 <-ggplot(Deer, aes(x = Zones, y = AverageMSm1, color = meanannual, shape = Taxon)) + 
+  
+  geom_boxplot(outlier.shape = NA) +
+ 
+   geom_jitter()
+m1 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+
+  scale_x_discrete(name ="Zones", limits=c("Grassland","Wet Plains","Mixed Plains", "Tropical Mountains", "Open Woodlands", "Mixed Woodlands", "Closed Woodlands")) + 
+  
+  ggtitle("m1 Average Mesowear vs. Zones") +
+  
+  xlab("Zones") + 
+  ylab("m1 Average Mesowear") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='MAP') + scale_color_gradient(low="pink", high="Dark blue")
+
+# m2 vs zones
+m2 <-ggplot(Deer, aes(x = Zones, y = AverageMSm2, color = meanannual, shape = Taxon)) + 
+  
+  geom_boxplot(outlier.shape = NA) +
+ 
+   geom_jitter()
+m2 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+
+  scale_x_discrete(name ="Zones", limits=c("Grassland","Wet Plains","Mixed Plains", "Tropical Mountains", "Open Woodlands", "Mixed Woodlands", "Closed Woodlands")) + 
+  
+  ggtitle("m2 Average Mesowear vs. Zones") +
+  
+  xlab("Zones") + 
+  ylab("m2 Average Mesowear") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='MAP') + scale_color_gradient(low="pink", high="Dark blue")
+
+
+# m3 vs Zones
+m3 <-ggplot(Deer, aes(x = Zones, y = AverageMSm3, color = meanannual, shape = Taxon)) + 
+  
+  geom_boxplot(outlier.shape = NA) +
+ 
+   geom_jitter()
+m3 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+
+  scale_x_discrete(name ="Zones", limits=c("Grassland","Wet Plains","Mixed Plains", "Tropical Mountains", "Open Woodlands", "Mixed Woodlands", "Closed Woodlands")) + 
+  
+  ggtitle("m3 Average Mesowear vs. Zones") +
+  
+  xlab("Zones") + 
+  ylab("m3 Average Mesowear") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='MAP') + scale_color_gradient(low="pink", high="Dark blue")
+
+
+# Dunn Tests
+dunn_result1 <- dunn.test(Deer$AverageMSm1, g = Deer$Zones, method = "bonferroni")
+print(dunn_result1)
+
+dunn_result2 <- dunn.test(Deer$AverageMSm2, g = Deer$Zones, method = "bonferroni")
+print(dunn_result2)
+
+dunn_result3 <- dunn.test(Deer$AverageMSm3, g = Deer$Zones, method = "bonferroni")
+print(dunn_result3)
+```
+
+```{r}
+"MESOWEAR X ARIDITY"
+
+
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(readxl)
+library(stats)
+
+Deer <- read_excel("/Users/jennadagher/Desktop/Deer Important Things/Deer.xlsx")
+
+x = Deer$meanannual
+y1= Deer$AverageMSm1
+res1<-cor.test(x, y1, method="kendall")
+print(res1)
+
+y2= Deer$AverageMSm2
+res2<-cor.test(x, y2, method="kendall")
+print(res2)
+
+y3= Deer$AverageMSm3
+res3<-cor.test(x, y3, method="kendall")
+print(res3)
+
+
+# m1 vs. MAP
+m1 <-ggplot(Deer, aes(x = meanannual, y = AverageMSm1, color = Zones, shape = Taxon)) + geom_point(outlier.shape = NA) + geom_jitter() + geom_abline(slope = coef(lm(y1 ~ x))[2], intercept = coef(lm(y1 ~ x))[1], color = 'black')
+m1 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+  
+  ggtitle("m1 Average Mesowear vs. Mean Annual Precipitation (MAP)") +
+  
+  xlab("MAP") + 
+  ylab("m1 Average Mesowear") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='Zones')   + scale_color_manual(values=c("#104E8B", "#20B2AA", "#32CD32", "#D2B48C", "#FFA500", "#FF6347", "#FF4500"))
+
+
+# m2 vs. MAP
+m2 <-ggplot(Deer, aes(x = meanannual, y = AverageMSm2, color = Zones, shape = Taxon)) + geom_point(outlier.shape = NA) + geom_jitter() + geom_abline(slope = coef(lm(y2 ~ x))[2], intercept = coef(lm(y2 ~ x))[1], color = 'black')
+m2 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+  
+  ggtitle("m2 Average Mesowear vs. Mean Annual Precipitation (MAP)") +
+  
+  xlab("MAP") + 
+  ylab("m2 Average Mesowear") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='Zones')   + scale_color_manual(values=c("#104E8B", "#20B2AA", "#32CD32", "#D2B48C", "#FFA500", "#FF6347", "#FF4500"))
+
+  # m3 vs. MAP
+m3 <-ggplot(Deer, aes(x = meanannual, y = AverageMSm3, color = Zones, shape = Taxon)) + geom_point(outlier.shape = NA) + geom_jitter() + geom_abline(slope = coef(lm(y3 ~ x))[2], intercept = coef(lm(y3 ~ x))[1], color = 'black')
+m3 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+  
+  ggtitle("m3 Average Mesowear vs. Mean Annual Precipitation (MAP)") +
+  
+  xlab("MAP") + 
+  ylab("m3 Average Mesowear") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='Zones')  + scale_color_manual(values=c("#104E8B", "#20B2AA", "#32CD32", "#D2B48C", "#FFA500", "#FF6347", "#FF4500"))
+```
+
+
+
+```{r}
+"Hypsodonty Index X Zones"
+
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(readxl)
+library(stats)
+
+Deer <- read_excel("/Users/jennadagher/Desktop/Deer Important Things/Deer.xlsx")
+
+model1 <- aov(HIm1 ~ Zones, data = Deer)
+summary(model1)
+tukey_result1 <- TukeyHSD(model1)
+print(tukey_result1)
+
+model2 <- aov(HIm2 ~ Zones, data = Deer)
+summary(model2)
+tukey_result2 <- TukeyHSD(model2)
+print(tukey_result2)
+
+
+model3 <- aov(HIm3 ~ Zones, data = Deer)
+summary(model3)
+tukey_result3 <- TukeyHSD(model3)
+print(tukey_result3)
+
+# m1 vs zones
+m1 <-ggplot(Deer, aes(x = Zones, y = HIm1, color = meanannual, shape = Taxon)) + 
+  
+  geom_boxplot(outlier.shape = NA) +
+ 
+   geom_jitter()
+m1 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+
+  scale_x_discrete(name ="Zones", limits=c("Grassland","Wet Plains","Mixed Plains", "Tropical Mountains", "Open Woodlands", "Mixed Woodlands", "Closed Woodlands")) + 
+  
+  ggtitle("m1 Hypsodonty Index vs. Zones") +
+  
+  xlab("Zones") + 
+  ylab("m1 Hypsodonty Index") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='MAP') + scale_color_gradient(low="pink", high="Dark blue")
+
+
+# m2 vs zones
+m2 <-ggplot(Deer, aes(x = Zones, y = HIm2, color = meanannual, shape = Taxon)) + 
+  
+  geom_boxplot(outlier.shape = NA) +
+ 
+   geom_jitter()
+m2 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+
+  scale_x_discrete(name ="Zones", limits=c("Grassland","Wet Plains","Mixed Plains", "Tropical Mountains", "Open Woodlands", "Mixed Woodlands", "Closed Woodlands")) + 
+  
+  ggtitle("m2 Hypsodonty Index vs. Zones") +
+  
+  xlab("Zones") + 
+  ylab("m2 Hypsodonty Index") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='MAP') + scale_color_gradient(low="pink", high="Dark blue")
+
+# m3 vs zones
+m3 <-ggplot(Deer, aes(x = Zones, y = HIm3, color = meanannual, shape = Taxon)) + 
+  
+  geom_boxplot(outlier.shape = NA) +
+ 
+   geom_jitter()
+m3 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+
+  scale_x_discrete(name ="Zones", limits=c("Grassland","Wet Plains","Mixed Plains", "Tropical Mountains", "Open Woodlands", "Mixed Woodlands", "Closed Woodlands")) + 
+  
+  ggtitle("m3 Hypsodonty Index vs. Zones") +
+  
+  xlab("Zones") + 
+  ylab("m3 Hypsodonty Index") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='MAP') + scale_color_gradient(low="pink", high="Dark blue")
+```
+
+```{r}
+"Hypsodonty Index X Aridity"
+
+
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(readxl)
+library(stats)
+
+
+Deer <- read_excel("/Users/jennadagher/Desktop/Deer Important Things/Deer.xlsx")
+
+x = Deer$meanannual
+y1= Deer$HIm1
+res1<-cor.test(x, y1)
+print(res1)
+
+y2= Deer$HIm2
+res2<-cor.test(x, y2)
+print(res2)
+
+y3= Deer$HIm3
+res3<-cor.test(x, y3)
+print(res3)
+
+# m1 vs. MAP
+m1 <-ggplot(Deer, aes(x = meanannual, y = HIm1, color = Zones, shape = Taxon)) + geom_point(outlier.shape = NA) + geom_jitter() + geom_abline(slope = coef(lm(y1 ~ x))[2], intercept = coef(lm(y1 ~ x))[1], color = 'black')
+m1 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+  
+  ggtitle("m1 Hypsodonty Index vs. Mean Annual Precipitation (MAP)") +
+  
+  xlab("MAP") + 
+  ylab("m1 Hypsodonty Index") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='Zones')  + scale_color_manual(values=c("#104E8B", "#20B2AA", "#32CD32", "#D2B48C", "#FFA500", "#FF6347", "#FF4500"))
+
+# m2 vs. MAP
+m2 <-ggplot(Deer, aes(x = meanannual, y = HIm2, color = Zones, shape = Taxon)) + geom_point(outlier.shape = NA) + geom_jitter() + geom_abline(slope = coef(lm(y2 ~ x))[2], intercept = coef(lm(y2 ~ x))[1], color = 'black')
+m2 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+  
+  ggtitle("m2 Hypsodonty Index vs. Mean Annual Precipitation (MAP)") +
+  
+  xlab("MAP") + 
+  ylab("m2 Hypsodonty Index") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='Zones')  + scale_color_manual(values=c("#104E8B", "#20B2AA", "#32CD32", "#D2B48C", "#FFA500", "#FF6347", "#FF4500"))
+
+# m3 vs. MAP
+m3 <-ggplot(Deer, aes(x = meanannual, y = HIm3, color = Zones, shape = Taxon)) + geom_point(outlier.shape = NA) + geom_jitter() + geom_abline(slope = coef(lm(y3 ~ x))[2], intercept = coef(lm(y3 ~ x))[1], color = 'black')
+m3 + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+  
+  ggtitle("m3 Hypsodonty Index vs. Mean Annual Precipitation (MAP)") +
+  
+  xlab("MAP") + 
+  ylab("m3 Hypsodonty Index") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='Zones')  + scale_color_manual(values=c("#104E8B", "#20B2AA", "#32CD32", "#D2B48C", "#FFA500", "#FF6347", "#FF4500"))
+
+```
+
+```{r}
+"Zones vs. MAP"
+
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(readxl)
+library(stats)
+
+Deer <- read_excel("/Users/jennadagher/Desktop/Deer Important Things/Deer.xlsx")
+
+model1 <- aov(HIm1 ~ Zones, data = Deer)
+summary(model1)
+# zones vs map
+zones <-ggplot(Deer, aes(x = Zones, y = meanannual, color = meanannual, shape = Taxon)) + 
+  
+  geom_boxplot(outlier.shape = NA) +
+ 
+   geom_jitter()
+zones + theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=0.5)) + 
+
+  scale_x_discrete(name ="Zones", limits=c("Grassland","Wet Plains","Mixed Plains", "Tropical Mountains", "Open Woodlands", "Mixed Woodlands", "Closed Woodlands")) + 
+  
+  ggtitle("Zones vs. Mean Annual Precipitation (MAP)") +
+  
+  xlab("Zones") + 
+  ylab("MAP") + 
+
+  theme(plot.title = element_text(face = "bold", hjust= 0.5)) +
+  labs(color='MAP') + scale_color_gradient(low="pink", high="Dark blue")
+
+
+
+
+
+```
+

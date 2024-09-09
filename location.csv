@@ -1,0 +1,305 @@
+Catalogue number,State,Country,county,latitude,longitude,Zones,Taxon
+LACM 13606,,Mexico,"Colima, Mixcuate, 5 miles east of camotalan",19.2452,-103.7241,Closed Woodlands,Odocoileus virginianus
+LACM 30196,CA,USA,Mendocino county,39.3176491,-123.4126399,Closed Woodlands,Odocoileus hemionus 
+LACM 30298,CA,USA,Monterey county,36.2231079,-121.3877428,Open Woodlands,Odocoileus virginianus
+LACM 30435,CA,USA,"Los Angeles county, Big Pines Park",39.7837304,-100.445882,Open Woodlands,Odocoileus hemionus 
+LACM 30436,CA,USA,Marin county,38.0409144,-122.6199638,Open Woodlands,Odocoileus hemionus 
+LACM 30455,CA,USA,Santa Clara county,37.2333253,-121.6846349,Open Woodlands,Odocoileus hemionus 
+LACM 30603,CA,USA,"Los Angeles county, Big Pines Park",39.7837304,-100.445882,Open Woodlands,Odocoileus hemionus 
+LACM 30603,CA,USA,"Los Angeles county, Big Pines Park",39.7837304,-100.445882,Open Woodlands,Odocoileus hemionus 
+LACM 30659,CA,USA,"Los Angeles county, Big Pines Park",39.7837304,-100.445882,Open Woodlands,Odocoileus hemionus 
+LACM 31103,LA,USA,Madison county,32.4402,-91.2891,Wet Plains,Odocoileus hemionus 
+LACM 33388,CA,USA,"Ventura county, Flimore",34.3705,-119.1391,Open Woodlands,Odocoileus virginianus
+LACM 52362,,Mexico,"Nayarit, Tres Marias Islands",21.4792,-106.4556,Closed Woodlands,Odocoileus hemionus 
+LACM 54167,MT,USA,"Beaverhead, county, Red Rock Refuge, lakeview",39.2135,-113.1093,Open Woodlands,Odocoileus virginianus 
+LACM 54514,,Mexico,"Colima, Mixcuate, 11 miles west of Colima",19.2452,-103.7241,Closed Woodlands,Odocoileus hemionus 
+LACM 54515,,Mexico,"colima, mixcuate, 11 mi W of comala",19.2452,-103.7241,Closed Woodlands,Odocoileus virginianus
+LACM 54516,,Mexico,"colima, mixcuate, 11 mi W of comala",19.2452,-103.7241,Closed Woodlands,Odocoileus virginianus
+LACM 54518,,Mexico,"colima, 7 mi NE of La Cotradia",19.2452,-103.7241,Closed Woodlands,Odocoileus virginianus
+LACM 84002,CA,USA,"Los Angeles County, Azusa, 12 miles north",39.7837304,-100.445882,Open Woodlands,Odocoileus virginianus
+LACM 92617,ME,USA,Bidgelow Mountains,45.1473,-70.2892,Closed Woodlands,Odocoileus hemionus 
+LACM 92619,PA,USA,"Delaware county, Newtown",40.0441348,-75.3859481,Mixed Plains,Odocoileus hemionus 
+LACM M614,,Mexico,,22.5000485,-100.000037,Open Woodlands,Odocoileus virginianus
+UMMZ 61142,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+FMNH 105751,WI,USA,wisconsin deer management unit #67,39.7837304,-100.445882,Mixed Woodlands,Odocoileus hemionus 
+FMNH 105752,WI,USA,Florence county,45.8379973,-88.3902943,Closed Woodlands,Odocoileus virginianus
+FMNH 105754,WI,USA,wisconsin deer management unit #67,39.7837304,-100.445882,Mixed Woodlands,Odocoileus virginianus
+FMNH 105758,WI,USA,wisconsin deer management unit #35,39.7837304,-100.445882,Mixed Woodlands,Odocoileus virginianus
+FMNH 105769,WI,USA,,45.2728122,-89.067113,Closed Woodlands,Odocoileus virginianus
+FMNH 105773,WI,USA,wisconsin deer management unit #55,39.7837304,-100.445882,Mixed Plains,Odocoileus virginianus
+FMNH 134440,WI,USA,Langlade county,45.2728122,-89.067113,Closed Woodlands,Odocoileus virginianus
+FMNH 134441,WI,USA,Langlade county,45.2728122,-89.067113,Closed Woodlands,Odocoileus virginianus
+FMNH 14231,,panama,Coiba I,7.3727165,-81.71668128,Closed Woodlands,Odocoileus virginianus
+FMNH 14430,,Mexico,"Coahuila, Jaral",25.6,-101.383,Grassland,Odocoileus virginianus
+FMNH 14433,,Mexico,"Coahuila, Jaral",25.6,-101.383,Grassland,Odocoileus virginianus
+FMNH 14437,,mexico,"coahuila, cuatro cienegas",26.9802847,-102.0580174,Grassland,Odocoileus virginianus
+FMNH 14442,,Mexico,"Durango, coyotes",23.8506931,-105.3128014,Mixed Woodlands,Odocoileus virginianus
+FMNH 14446,,Mexico,"Durango, coyotes",23.8506931,-105.3128014,Mixed Woodlands,Odocoileus virginianus
+FMNH 14447,,Mexico,"Durango, coyotes",23.8506931,-105.3128014,Mixed Woodlands,Odocoileus virginianus
+FMNH 14448,,Mexico,"Durango, coyotes",23.8506931,-105.3128014,Mixed Woodlands,Odocoileus virginianus
+FMNH 14450,,mexico,"coahuila, cuatro cienegas",26.9802847,-102.0580174,Grassland,Odocoileus virginianus
+FMNH 14452,,Mexico,"coahuila, cuatro cienegas",26.9802847,-102.0580174,Grassland,Odocoileus virginianus
+FMNH 14453,,Mexico,"coahuila, cuatro cienegas",26.9802847,-102.0580174,Grassland,Odocoileus virginianus
+FMNH 14455,,Mexico,"coahuila, cuatro cienegas",26.9802847,-102.0580174,Grassland,Odocoileus hemionus 
+FMNH 14460,,Mexico,"coahuila, cuatro cienegas",26.9802847,-102.0580174,Grassland,Odocoileus hemionus 
+FMNH 14462,,Mexico,"coahuila, cuatro cienegas",26.9802847,-102.0580174,Grassland,Odocoileus virginianus
+FMNH 14465,,Mexico,"coahuila, cuatro cienegas",26.9802847,-102.0580174,Grassland,Odocoileus virginianus
+FMNH 15976,,guatemala,"lzabel, los amates ",15.6356088,-89.8988087,Mixed Woodlands,Odocoileus virginianus
+FMNH 16001,,mexico,"oaxaca, reforma",17.852994,-96.2170225,Mixed Woodlands,Odocoileus virginianus
+FMNH 16560,,guatemala,"chimaltenago, tecpam",14.659,-90.8245,Mixed Woodlands,Odocoileus hemionus 
+FMNH 170889,MI,USA,"Van Buren county, 42 deg 16' N X 86 deg 17' W",42.246,-86.0122,Closed Woodlands,Odocoileus hemionus 
+FMNH 18784,,venezuela,"zulia, sabana empalado",10.291,-72.1416,Closed Woodlands,Odocoileus hemionus 
+FMNH 214510,IL,USA,"Cook county, Crabtree nature center neaar Barrington",42.1158,-88.1634,Mixed Plains,Odocoileus hemionus 
+FMNH 214511,IL,USA,"Cook county, Crabtree nature center neaar Barrington",42.1158,-88.1634,Mixed Plains,Odocoileus hemionus 
+FMNH 215513,IL,USA,"Cook county,  Busse Woods, Ned Brown Forest Preserve",42.0496,-88.0232,Mixed Plains,Odocoileus hemionus 
+FMNH 21805,,Mexico,"baja california, San Pedro Martir Mts, Santa Eulalia",30.74,-100.000037,Mixed Woodlands,Odocoileus hemionus 
+FMNH 44829,MI,USA,"Washtenaw county, George reserve ",42.4584,-84.0114,Closed Woodlands,Odocoileus hemionus 
+FMNH 47049,,Ecuador,cordillera de los Llangamates,-1.3397668,-78.25,Mixed Woodlands,Odocoileus virginianus
+FMNH 47746,MN,USA,"Red Lake county, Red Lake",47.877,-96.1346,Closed Woodlands,Odocoileus virginianus
+FMNH 48490,,Mexico,"Nuevo leon, cerro potosi, near la jolla galeana",20.03585,-101.5715,Grassland,Odocoileus virginianus
+FMNH 48940,FL,USA,Big Pine Key,24.68926855,-81.36890042,Wet Plains,Odocoileus virginianus
+FMNH 52504,,peru,"apurimac, Abancay, Quebradab matara, hacienda matara, 2000m",-13.6339,-72.8814,Tropical Mountains,Odocoileus virginianus
+FMNH 54014,Ontario,Canada,Quibell,49.95,-93.416667,Closed Woodlands,Odocoileus virginianus
+FMNH 55662,TX,USA,"presidio county, porvenir",29.9481,-104.1001,Grassland,Odocoileus virginianus
+FMNH 66406,WA,USA,"Clallam county, Olympic mts., Happy Lake",48.1134,-123.7986,Closed Woodlands,Odocoileus virginianus
+FMNH 72893,Ontario,Canada,"Burditt Lake, 12 mi N Emo",61.0666922,-107.991707,Closed Woodlands,Odocoileus virginianus
+FMNH 7612,,Mexico,chihuahua Casas grandes,30.1865277,-108.0239381,Grassland,Odocoileus hemionus 
+FMNH 7613,,Mexico,chihuahua Casas grandes,30.1865277,-108.0239381,Grassland,Odocoileus virginianus
+FMNH 7614,,Mexico,chihuahua Casas grandes,30.1865277,-108.0239381,Grassland,Odocoileus virginianus
+FMNH 78422,,peru,"puno, sandia, la pachetaq, w of sandia",-14.2377,-69.4333,Mixed Woodlands,Odocoileus virginianus
+FMNH 87873,,colombia ,"metam san juan de aramam los micos, 400 m",3.3698,-73.87267,Tropical Mountains,Odocoileus virginianus
+FMNH 9931,,Mexico,"baja california, san quintin",30.557464,-115.937581,Open Woodlands,Odocoileus virginianus
+FMNH 9933,,Mexico,"baja california, San Pedro Martir Mts, Vallecitos",30.74,-115.2166658,Mixed Woodlands,Odocoileus virginianus
+FMNH 9935,,Mexico,"baja california, San Pedro Martir Mts, Vallecitos",30.74,-100.000037,Mixed Woodlands,Odocoileus virginianus 
+FMNH 9937,,Mexico,"baja california, San Pedro Martir Mts, Vallecitos",30.74,-100.000037,Mixed Woodlands,Odocoileus virginianus
+FMNH 9940,,Mexico,"baja. California, Parral",30.74,-109.9222113,Mixed Woodlands,Odocoileus hemionus 
+FMNH 9942,,Mexico,"baja california, San Pedro Martir Mts, Santa Eulalia",30.74,-100.000037,Mixed Woodlands,Odocoileus virginianus
+UF 12808,FL,USA,Marion county,29.2788,-82.1278,Wet Plains,Odocoileus virginianus
+UF 20752,FL,USA,Monroe county,25.2974,-81.0755,Wet Plains,Odocoileus virginianus
+UF 24017,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 25430,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 30365,PA,USA,Pike county,41.3362,-75.0611,Closed Woodlands,Odocoileus virginianus
+UF 3262,FL,USA,Putnam county,29.6265,-81.7787,Wet Plains,Odocoileus hemionus 
+UF 3268,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus hemionus 
+UF 4991,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus hemionus 
+UF 4992,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus hemionus 
+UF 4993,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus hemionus 
+UF 4994,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus hemionus 
+UF 4995,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 4998,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 5973,FL,USA,Flagler county,29.4844412,-81.2917415,Wet Plains,Odocoileus virginianus 
+UF 8139,ME,USA,Maine,45.709097,-68.8590201,Closed Woodlands,Odocoileus virginianus
+UF 8651,FL,USA,Monroe county,25.2974,-81.0755,Wet Plains,Odocoileus virginianus
+UF 8651,FL,USA,Monroe county,25.2974,-81.0755,Wet Plains,Odocoileus virginianus
+UF 8651,FL,USA,Monroe county,25.2974,-81.0755,Wet Plains,Odocoileus virginianus
+UF 8651,FL,USA,Monroe county,25.2974,-81.0755,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus 
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus 
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus 
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus 
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8724,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 8726,FL,USA,Citrus county,28.8512851,-82.5141209,Mixed Plains,Odocoileus virginianus
+UF 8726,FL,USA,Citrus county,28.8512851,-82.5141209,Mixed Plains,Odocoileus virginianus
+UF 8726,FL,USA,Citrus county,28.8512851,-82.5141209,Mixed Plains,Odocoileus virginianus
+UF 8728,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8728,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8728,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8728,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8728,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8729,FL,USA,Okaloosa county,30.6765961,-86.6037748,Mixed Plains,Odocoileus virginianus
+UF 8734,FL,USA,Columbia county,30.1813,-82.6051,Wet Plains,Odocoileus virginianus
+UF 8734,FL,USA,Columbia county,30.1813,-82.6051,Wet Plains,Odocoileus virginianus
+UF 8734,FL,USA,Columbia county,30.1813,-82.6051,Wet Plains,Odocoileus virginianus
+UF 8734,FL,USA,Columbia county,30.1813,-82.6051,Wet Plains,Odocoileus virginianus
+UF 8734,FL,USA,Columbia county,30.1813,-82.6051,Wet Plains,Odocoileus virginianus
+UF 8734,FL,USA,Columbia county,30.1813,-82.6051,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8736,FL,USA,Levy county,29.3008632,-82.7824592,Wet Plains,Odocoileus virginianus
+UF 8740,WY,USA,Niobrara county,43.0087581,-104.4565524,Mixed Plains,Odocoileus virginianus
+UF 9507,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9508,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9508,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9508,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9508,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9508,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9508,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9508,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9509,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9510,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9516,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9518,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9519,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9521,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9522,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9523,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9524,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9525,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9527,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9528,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9529,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9530,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9532,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9533,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9534,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9536,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9537,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9537,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9538,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9540,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9542,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9543,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9545,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9546,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9547,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9548,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9550,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9551,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9553,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9554,FL,USA,Union county,30.0745,-82.3452,Wet Plains,Odocoileus virginianus
+UF 9555,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9555,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9555,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9555,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9555,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9555,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9555,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9555,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9557,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9559,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9561,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9562,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9563,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9563,FL,USA,Volusia county,29.0533409,-81.1310761,Wet Plains,Odocoileus virginianus
+UF 9564,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9565,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9566,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9567,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9569,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9573,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9574,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9575,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9576,FL,USA,Broward county,26.1598074,-80.4623642,Wet Plains,Odocoileus virginianus
+UF 9649,FL,USA,Collier county,26.087964,-81.3794941,Wet Plains,Odocoileus virginianus
+UMMZ 40446,MI,USA,Dickinson county,45.9601,87.8616,Mixed Woodlands,Odocoileus virginianus
+UMMZ 5240,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 57750,MI,USA,Crawford County,44.6524,-84.6897,Mixed Woodlands,Odocoileus virginianus
+UMMZ 57751,MI,USA,LaPort county,41.7384,-86.8822,Closed Woodlands,Odocoileus virginianus
+UMMZ 57868,MN,USA,Funkley,47.7835661,-94.431348,Wet Plains,Odocoileus virginianus
+UMMZ 59029,MI,USA,Crawford County,44.6524,-84.6897,Mixed Woodlands,Odocoileus virginianus
+UMMZ 60952,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 60962,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 60967,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus
+UMMZ 60980,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 60986,MI,USA,Houghton county,46.8591287,-88.7774734,Mixed Woodlands,Odocoileus virginianus
+UMMZ 60997,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61004,MI,USA,Iron county,46.2758,-88.4903,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61010,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 61011,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61018,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus 
+UMMZ 61023,MI,USA,Iosco county,44.3501989,-83.6582168,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61025,MI,USA,Houghton county,46.8591287,-88.7774734,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61028,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 61029,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 61030,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 61032,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61034,MI,USA,Alger county,47.16,-86.5088,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61040,MI,USA,Crawford County,44.6524,-84.6897,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61044,MI,USA,Dickinson county,45.9601,87.8616,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61045,MI,USA,Alpena county,45.0176181,-83.6670019,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61053,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61053,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61062,MI,USA,Alpena county,45.0176181,-83.6670019,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61073,MI,USA,Chippewa county,46.3117,-84.5932,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61083,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61093,MI,USA,Chippewa county,46.3117,-84.5932,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61097,MI,USA,Delta county,45.7124,-86.9844,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61114,MI,USA,Houghton county,46.8591287,-88.7774734,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61117,MI,USA,Chippewa county,46.3117,-84.5932,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61118,MI,USA,Chippewa county,46.3117,-84.5932,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61125,MI,USA,Alpena county,45.0176181,-83.6670019,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61129,MI,USA,Oscoda county,44.6789109,-84.1467693,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61143,MI,USA,Chippewa county,46.3117,-84.5932,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61144,MI,USA,Crawford county,44.6524,-84.6897,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61152,MI,USA,Alpena county,45.0176181,-83.6670019,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61167,MI,USA,Alpena county,45.0176181,-83.6670019,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61168,MI,USA,Keeweewaw,47.7516,-88.3249,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61172,MI,USA,Gogebic county,46.403433,-89.6626791,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61179,MI,USA,Gogebic county,46.403433,-89.6626791,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61184,MI,USA,Gogebic county,46.403433,-89.6626791,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61192,MI,USA,Houghton county,46.8591287,-88.7774734,Mixed Woodlands,Odocoileus virginianus
+UMMZ 61194,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 61213,MI,USA,Calhoun county,42.2074,-85.0233,Closed Woodlands,Odocoileus virginianus
+UMMZ 61221,MI,USA,Gogebic county,46.403433,-89.6626791,Mixed Woodlands,Odocoileus virginianus
+UMMZ 65470,MI,USA,Gogebic county,46.403433,-89.6626791,Mixed Woodlands,Odocoileus virginianus
+UMMZ 65471,MI,USA,Gogebic county,46.403433,-89.6626791,Mixed Woodlands,Odocoileus virginianus
+UMMZ 65530,TX,USA,Blanco county,30.2419274,-98.4004594,Grassland,Odocoileus virginianus
+UMMZ 76253,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 76264,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 76269,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 76271,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 79567,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 79568,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 79568,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 80206,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 80209,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 80212,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 80213,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 81135,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 81137,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 81138,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 81139,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 81161,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 81648,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 81648,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 81720,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 91097,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 92273,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
+UMMZ 97528,FL,USA,Monroe county,25.2974,-81.0755,Wet Plains,Odocoileus virginianus
+UMMZ 97529,FL,USA,Monroe county,25.2974,-81.0755,Wet Plains,Odocoileus virginianus
+UMMZ81136,MI,USA,Livingston county,42.6208,-83.8473,Closed Woodlands,Odocoileus virginianus
